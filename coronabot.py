@@ -22,8 +22,7 @@ class User:
         self.qiymat = qiymat
         self.array = array
 
-#bot = telebot.TeleBot(token = '1246668421:AAFduvP_U5ni-K4uC7X0V1tn4sJ5BJZ-KRo')
-bot = telebot.TeleBot(token = '833733976:AAE92wcBdR7snpqiqsHSkSuv9Ly0XLvWehM')
+bot = telebot.TeleBot(token = '<Your bot token>')
 
 @bot.message_handler(commands=['start'])
 
